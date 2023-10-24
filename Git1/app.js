@@ -84,7 +84,7 @@
 // let userTotal = chemMarks + mathMarks + bioMarks + engMarks
 // let percentage = userTotal / totalMarks *100;
 
-// // console.log(userName, chemMarks, mathMarks, bioMarks, engMarks);
+// console.log(userName, chemMarks, mathMarks, bioMarks, engMarks);
 
 // console.log ('Student Name ' + userName + " got" + percentage + "%.");
 
@@ -96,9 +96,9 @@
 //     console.log('grade B');
 // } else if (percentage <60 && percentage >= 50) {
 //     console.log('grade C');
-// } else (percentage <50) {
-//     console.log("Fail");
-// }
+// } else {
+//     console.log('Fail ho gaya bacha');
+// } 
 
 // Assignment Operators:
 
@@ -140,11 +140,46 @@
 
 // If-Else condition practice:
 
-// If I play Game PACMAN on my mobile I want to apply some conditions on my score
+// = Assigning Operators:
+// == Value match:
+// === Value k sath Data type bhi match karega:
+// && left and right dono ka true hona zaruri hai:
+// || Koi bhi aik side ka tru hona zaruri hai
+// < less than
+// > Greater than
+// <= less than and equal to 
+// >= greater than and equal to 
+// != not equal to 
 
-// const gameScore = 600;
-// if(gameScore < 500){
-// console.log(Loser);
+
+// let number = prompt("Enter a number: ");
+
+// if (number > 0) {
+//     console.log("The number is positive");
+// }
+// else if (number == 0) {
+//   console.log("The number is 0");
+// }
+// else {
+//     console.log("The number is negative");
 // }
 
+// ***********Use of If, else if and else************
 
+// let employName = prompt("Enter Employee Name");
+// let employattendance = +prompt("Enter Employee Attendance");
+
+// if (employattendance > 250 && employattendance < 301) {
+//     console.log("Employee will get 100% Bonus");
+// }
+// else if (employattendance > 225 && employattendance < 251) {
+//     console.log("Employee will get 50% Bonus");
+// }
+// else if (employattendance > 200 && employattendance < 225) {
+//     console.log("Employee will not get any bonus");
+// } 
+
+// else {
+//     console.log("TU Job se Bahar hai");
+// }
+// **************End of Today's Working 25-Oct-2023**************

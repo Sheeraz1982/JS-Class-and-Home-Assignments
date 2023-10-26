@@ -183,3 +183,95 @@
 //     console.log("TU Job se Bahar hai");
 // }
 // **************End of Today's Working 25-Oct-2023**************
+
+//############### Start Practice on 26-Oct-2023###################
+
+// // Functions
+// A function in JavaScript is similar to a procedure—a set of statements that performs 
+// a task or calculates a value, but for a procedure to qualify as a function, it should 
+// take some input and return an output where there is some obvious relationship between 
+// // the input and the output.
+
+// In easy words, Bare se bare codes k package ko hum aik box main bund kar skte hain, phir 
+// us box ko jahan chahen hum use kar skte hain. This is called Function. 
+
+// function sayMyName() {
+//     console.log("H");
+//     console.log("I");
+//     console.log("T");
+//     console.log("S");
+//     console.log("F");
+//     console.log("Q");
+//     console.log("Z");
+// }
+// sayMyName()
+
+// const a = 10
+// const b = 20
+// function sumNumber(){
+//     console.log(a + b)
+//     console.log(a - b)
+//     console.log(a * b)
+//     console.log(a / b)
+// }
+// sumNumber()
+
+// function sumTwoNumbers(b, c){
+//     console.log(b + c)
+//     console.log(b - c)
+// }
+// sumTwoNumbers(200, 150)
+
+// const Name1 = "Syed Sheeraz Ali"
+// const Name2 = "Syed Fayyaz Ali"
+// const Name3 = "Syed Rashid Ali"
+// const Name4 = "Syed Arshad Ali"
+// const Name5 = "Syed Nasir Ali"
+// const Name6 = "Syed Nadir Ali"
+// function printName (){
+//     console.log(Name1)
+//     console.log(Name2)
+//     console.log(Name3)
+//     console.log(Name4)
+//     console.log(Name5)
+//     console.log(Name6)
+// }
+// printName()
+
+// const Name1 = "Syed Sheeraz Ali"
+// const Name2 = "Syed Fayyaz Ali"
+// const Name3 = "Syed Rashid Ali"
+// const Name4 = "Syed Arshad Ali"
+// const Name5 = "Syed Nasir Ali"
+// const Name6 = "Syed Nadir Ali"
+// function printName (){
+//     console.log(Name1 + Name2 + Name3 + Name4 + Name5 + Name6)
+//     console.log(Name1)
+//     console.log(Name2)
+//     console.log(Name3)
+//     console.log(Name4)
+//     console.log(Name5)
+//     console.log(Name6)
+// }
+// printName()
+
+// function findSquare(num) {
+//     return num*num;
+// }
+// console.log(findSquare(4))
+// console.log(findSquare(8))
+// console.log(findSquare(12))
+
+// function findcube(num){
+//     console.log(num*num*num)
+// }
+// findcube(6)
+// findcube(2)
+// findcube(9)
+
+
+
+
+
+
+

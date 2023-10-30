@@ -269,9 +269,76 @@
 // findcube(2)
 // findcube(9)
 
+// Assignment # 4
+
+// Declare 3 variables in one statement
+
+// let a = 5 ,b = 8, c = 12; 
+
+// console.log(a + b + c)
+// console.log(a * b * c)
 
 
+// const h1 = document.querySelector('.head');
+// h1.innerHTML = 'This is my New Website'
+
+// const h1 = document.querySelector('.head');
+// h1.innerHTML = 'This is my other Website'
+
+// function greetUser(){
+//     if(h1.innerHTML === 'changed through javascript'){
+//     h1.innnerHTML = 'hello world'
+// } else{
+//     h1.innerHTML = 'changed through javascript'
+// }}
+
+// console.log('Hello World')
+
+// const h1 = document.querySelector('h1');
+// h1.innerHTML = 'changed through javascript'
+
+// function greetUser (){
+//     if(h1.innerHTML === 'changed through javascript'){
+//         h1.innerHTML = 'hello world'
+//     }else{
+//         h1.innerHTML = 'changed through javascript'
+//     }
+//     console.log('hello world');
+// }
+
+// const p = document.querySelector('p');
+// p.innerHTML = 'changed through javascript'
+
+// function greetUser (){
+//     if(p.innerHTML === 'changed through javascript'){
+//         p.innerHTML = 'My Paragraph'
+//     }else{
+//         p.innerHTML = 'changed through javascript'
+//     }
+//     console.log('My Paragraph');
+// }
 
 
+// document.getElementById("calculateButton").addEventListener("click", function() {
+//     var p1Value = parseFloat(document.getElementById("p1").value);
+//     var p2Value = parseFloat(document.getElementById("p2").value);
+//     var result = p1Value + p2Value;
+//     document.getElementById("result").textContent = "Result: " + result;
+// });
 
+let firstDigit = prompt("What's your first number?");
 
+console.log('First#', firstDigit)
+if (firstDigit != "") {
+  let operation = prompt("What's your first operator?");
+
+  console.log('Operation', operation)
+
+  if (operation != "" && (operation == '*' || operation == '+' || operation == '-' || operation == '/'))
+  {
+    let secondDigit = prompt("What's your second number?"); 
+console.log('Second#', secondDigit)
+    if (secondDigit != ""){
+      var result = eval(firstDigit + operation + secondDigit)
+      console.log(result) 
+}}}

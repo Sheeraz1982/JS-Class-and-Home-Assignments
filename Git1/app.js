@@ -278,6 +278,78 @@
 // console.log(a + b + c)
 // console.log(a * b * c)
 
+// a) A heading stating “Rules for naming JS variables”
+// i)  Variable names must start with a letter, an underscore ( _ ) or a dollar sign ( $ ).
+// ii) Variable names cannot contain spaces.
+// iii)Variables cannot be the same as reserved keywords such as if or const .
+// iv) By convention, JavaScript variable names are written in camelCase.
+
+// Variable names can only contain $, (_), letter and number
+
+// var $Name = ('Sheeraz');
+// console.log($Name);
+
+// var _Name = ('Sheeraz');
+// console.log(_Name);
+
+// var Name = ('Sheeraz');
+// console.log(Name);
+
+// var Name2 = ('Sheeraz');
+// console.log(Name2);
+
+// Variable names are case (Sensitive)
+
+// Variable names should not be JS (KeyWord)
+
+// ****************5-7 MathExpressions********************
+
+// Write a program that take two numbers & add them in a new Variable. 
+// Show the result in your browser
+
+// let a = 40;
+// let b = 30;
+
+// document.write(a + b);
+// console.log(a + b)
+// alert("Sum of 40 and 30 is 70")
+
+// Repeat task1 for subtraction, multiplication, division & modulus
+
+// let a = 50
+// let b = 40
+
+// document.write(a - b)
+// console.log(a - b)
+
+// document.write(a * b)
+// console.log(a * b)
+
+// document.write(a / b)
+// console.log(a / b)
+
+// document.write(a % b)
+// console.log(a % b)
+
+// var num = 10;
+// var newNum = --num;
+
+// console.log(newNum)
+
+// var num = 10;
+// var newNum = ++num;
+
+// console.log(newNum)
+
+// Cost of one movie ticket is 600 PKR. Write a script to store ticket price in a variable
+// & calculate the cost of buying 5 tickets to a movie. Example output:
+
+// let movieTicket = 900;
+// let numOfTickets = 15;
+
+// document.write(movieTicket * numOfTickets)
+
+
 
 // const h1 = document.querySelector('.head');
 // h1.innerHTML = 'This is my New Website'
@@ -326,19 +398,93 @@
 //     document.getElementById("result").textContent = "Result: " + result;
 // });
 
-let firstDigit = prompt("What's your first number?");
+// let firstDigit = prompt("What's your first number?");
 
-console.log('First#', firstDigit)
-if (firstDigit != "") {
-  let operation = prompt("What's your first operator?");
+// console.log('First#', firstDigit)
+// if (firstDigit != "") {
+//   let operation = prompt("What's your first operator?");
 
-  console.log('Operation', operation)
+//   console.log('Operation', operation)
 
-  if (operation != "" && (operation == '*' || operation == '+' || operation == '-' || operation == '/'))
-  {
-    let secondDigit = prompt("What's your second number?"); 
-console.log('Second#', secondDigit)
-    if (secondDigit != ""){
-      var result = eval(firstDigit + operation + secondDigit)
-      console.log(result) 
-}}}
+//   if (operation != "" && (operation == '*' || operation == '+' || operation == '-' || operation == '/'))
+//   {
+//     let secondDigit = prompt("What's your second number?"); 
+// console.log('Second#', secondDigit)
+//     if (secondDigit != ""){
+//       var result = eval(firstDigit + operation + secondDigit)
+//       console.log(result) 
+// }}}
+
+// const head = document.querySelector('#head');
+// function changeHead (names){
+//     console.log(names);
+//     head.innerHTML = 'changed through javascript'
+// }
+
+// console.log(head);
+
+
+// %%%%%%%%%%%%%%%%%%%% New Topic (Array)%%%%%%%%%%%%%%%%%%
+// List of Methods of Array:
+
+//push
+//pop
+//unshift
+//shift
+//splice
+//slice
+//split
+//join
+//concat
+
+//sort
+//reverse
+//indexof
+
+// let fruits = ['Apple' , 'Banana' , 'Mango' , 'Watermellon']
+// console.log(fruits [2]) (Revision Done)
+
+// let listOfNumber = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// listOfNumber.splice(5, 3, 16, 17, 18)
+// console.log(listOfNumber) (Revision Done)
+
+// let listOfNumber = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// listOfNumber.splice(0, 1,)
+// listOfNumber.splice(3, 1,)
+// listOfNumber.splice(7, 1,)
+// console.log(listOfNumber)
+
+// let listOfNumber = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// const newArr = listOfNumber.slice(2, 9) (Revision Done)
+// console.log(newArr);
+
+// const name = 'Syed Sheeraz Ali';
+// const createArr = name.split (' ') (Revision Done)
+// console.log(createArr);
+
+// const name = 'Syed Sheeraz Ali';
+// const createArr = name.split('').join(' ');
+// console.log(createArr);
+
+// let fruits = ['Apple', 'Banana', 'Mango', 'Watermellon']
+// const createArr = fruits.join('     ');
+// console.log(createArr)
+
+// Sort and Reverse Method:
+
+// let carNames = ['Honda', 'Suzuki', 'Mitsubishi', 'Daihatsu', 'Ford', 'BMW', 'Toyota']
+// // const createArr = carNames.sort()
+// const createArr = carNames.reverse()
+// console.log(carNames)
+
+// IndexOf Method:
+
+// let carNames = ['Honda', 'Suzuki', 'Mitsubishi', 'Daihatsu', 'Ford', 'BMW', 'Toyota']
+// const index = carNames.indexOf("Ford");
+// console.log(index)
+
+
+
+
+
+

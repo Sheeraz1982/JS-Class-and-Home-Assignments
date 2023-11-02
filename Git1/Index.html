@@ -2,38 +2,31 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS Class & Home Assignments</title>
-</head>
-
-<body>
-  
-  <h2>JavaScript Arrays</h2>
-  <p>The Array.sort() method sorts the elements of an array.</p>
-
-    
-  <!-- <h1 id="head">Hello World</h1> -->
-
-    <!-- <button onclick="changeHead()">submit</button>
-    <h5>Cost of One Movie Ticket is 900 PKR</h5>
-    <h5>Total Cost of 15 Tickets are mention below</h5>
-    -->
-
-<script src="app.js"></script>
-</body>
-</html>
-
-<!-- <html>
-<head>
-  <title>DOM Manipulation</title>
+  <title>JavaScript Assignments</title>
+<script>
+  function generateTable(){
+    var getData = document.getElementById("number").value;
+    var putData = document.getElementById("display");
+    var i;
+        for(i = 1; i<=10; i++){
+        putData.innerHTML+=getData+ " x " + i + " = " + getData * i+"<br>";
+}
+}
+</script>
 </head>
 <body>
-  <input type="number" id="p1" placeholder="Enter a number">
-  <input type="number" id="p2" placeholder="Enter another number">
-  <button id="calculateButton">Calculate</button>
-  <div id="result"></div>
+<center>
+<h1>Multiplication Table Generator</h1>
+
+  <input type="number" placeholder="Enter value" id="number">
+  <button onclick="generateTable()">submit</button>
+  <br><hr>
+  <div id="display"></div>
+
+</center>
 
   <script src="app.js"></script>
 </body>
-</html> -->
+</html>
+
+

@@ -484,6 +484,105 @@
 // console.log(index)
 
 
+// // take input from the user
+// const number = +(prompt('Enter an integer:'));
+// //creating a multiplication table
+// for(let i = 1; i <= 10; i++) {
+
+//     // multiply i with number
+//     const result = i * number;
+
+//     // display the result
+//     console.log(`${number} * ${i} = ${result}`);
+// }
+
+// function print_table(n, i = 1) {
+//     if (i == 11) // Base case
+//         return;
+//     console.log(n + " * " + i + " = " + n * i);
+//     i++;  // Increment i
+//     print_table(n, i);
+// }
+ 
+// Driver Code
+// let n = 5;
+// print_table(n);
+
+// loops
+// console.log('hello world');
+// const div = document.querySelector('.container');
+
+// let userVal = +prompt('enter your value');
+// for (let i = 1; i <= 10; i++){
+//     console.log(userVal + " x " + i + " = " + userVal * i );
+//     // div.innerHTML +=  userVal + " x " + i + " = " + userVal * i + "<br/>" ;
+// }
+
+// const input = document.querySelector('#value');
+
+// function showVal(){
+//     console.log(input.value);
+    
+// }
+
+// var num = 5
+// var result = ++num + num++ + num +  ++num - --num
+// document.write(result)
+
+
+// LOOPS
+// There are three basic loops in JavaScript
+
+// 1- For Loop (For loop main limit hoti hai)
+// 2- While Loop (While loop main limit nahi hoti)
+// 3- Do While Loop (Do While loop main pehli baar false condition ko bhi chalae ga magar Sirf aik baar)
+
+// For Loop main 3 steps hote hain
+// 1- Variable ko initialize karna hota hai 
+// 2- Phir hum condition ko check kar wayenge
+// 3- Ya tu increment karenge ya decrement karenge
+
+// let a;
+
+// for(a = 0; a <= 10; a++){
+//     document.write('Syed Sheeraz Ali <br>')
+// }
+
+// for(a = 10; a >=0; a--){
+//     document.write(a+'<br>')
+// }
+
+// for (var i=1; i <= 10; i++){
+//     document.write(4+ " x "+i+ " = " +4*i,"<br>")
+// }
+
+// var userInput = +prompt('Enter Any Number')
+// for (var i=1; i <= 10; i++){
+//     document.write(userInput+ " x "+i+ " = " +userInput*i,"<br>")
+// }
+
+// var userInput = +prompt('Enter Any Number')
+// var limitNumber = +prompt('Enter Limit')
+// for (var i=1; i <= limitNumber; i++){
+//     document.write(userInput+ " x "+i+ " = " +userInput*i,"<br>")
+// }
+
+
+// function generateTable(){
+//     var getData = document.getElementById("number").value;
+//     var putData = document.getElementById("display");
+//     var i;
+//         for(i = 1; i<=10; i++){
+//         putData.innerHTML+=getData+ " x " + i + " = " + getData * i+"<br>";
+// }
+// }
+
+
+
+
+
+
+
 
 
 

@@ -442,7 +442,7 @@
 //indexof
 
 // let fruits = ['Apple' , 'Banana' , 'Mango' , 'Watermellon']
-// console.log(fruits [2]) (Revision Done)
+// console.log(fruits [3]);
 
 // let listOfNumber = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 // listOfNumber.splice(5, 3, 16, 17, 18)
@@ -486,14 +486,14 @@
 
 // // take input from the user
 // const number = +(prompt('Enter an integer:'));
-// //creating a multiplication table
+//creating a multiplication table
 // for(let i = 1; i <= 10; i++) {
 
-//     // multiply i with number
-//     const result = i * number;
+// multiply i with number
+// const result = i * number;
 
-//     // display the result
-//     console.log(`${number} * ${i} = ${result}`);
+// display the result
+// console.log(`${number} * ${i} = ${result}`);
 // }
 
 // function print_table(n, i = 1) {
@@ -503,7 +503,7 @@
 //     i++;  // Increment i
 //     print_table(n, i);
 // }
- 
+
 // Driver Code
 // let n = 5;
 // print_table(n);
@@ -515,14 +515,14 @@
 // let userVal = +prompt('enter your value');
 // for (let i = 1; i <= 10; i++){
 //     console.log(userVal + " x " + i + " = " + userVal * i );
-//     // div.innerHTML +=  userVal + " x " + i + " = " + userVal * i + "<br/>" ;
+// div.innerHTML +=  userVal + " x " + i + " = " + userVal * i + "<br/>" ;
 // }
 
 // const input = document.querySelector('#value');
 
 // function showVal(){
 //     console.log(input.value);
-    
+
 // }
 
 // var num = 5
@@ -572,18 +572,99 @@
 //     var getData = document.getElementById("number").value;
 //     var putData = document.getElementById("display");
 //     var i;
-//         for(i = 1; i<=10; i++){
+//         for(i ]= 1; i<=10; i++){
 //         putData.innerHTML+=getData+ " x " + i + " = " + getData * i+"<br>";
 // }
 // }
 
+// for (var i = 1; i <= 10; i++){
+//     console.log(i) 
+//         for (var j = 1; j <=10; i++)
+//     console.log()
+//     }
+
+// While Loop
+
+// let i = 1;
+// while (i < 10) {
+//     console.log(i);
+//     i++
+// }
+
+// let i = 1;
+// while (i <= 10) {
+//     console.log(2 + "x" + i + "=" + 2*i);
+//     i++ 
+// }
+
+// let i = 0
+// do {
+//     console.log(i);
+//     i++
+// }   while(i <= 10);
+
+// let i = 0
+// do {
+//     console.log(2 + "x" + i + "=" + 2*i);
+//     i++
+// }   while(i <= 10);
+
+// const name = 'Sheeraz Ali'
+// const age = 42;
+
+// // console.log(`My name is ${name} and my age is ${age}`);
+
+// let fruitsName = ['Banana', 'Mango', 'Papaya', 'Apple']
+// for (var i = 0; i <=fruitsName.length ; i++){
+
+//     console.log(`${fruitsName[i]} and its index number is ${i}`)
+// }
 
 
+// const h1 = document.querySelector('h1');
+
+//     if(h1.innerHTML === 'My Name is Syed Sheeraz Ali'){
+//     function myUser (){
+//         h1.innerHTML = 'Hello World'
+//     }else{
+//         h1.innerHTML = 'My Name is Syed Sheeraz Ali'
+//     }
+//     console.log('hello world');
+// }
+
+// // 
+// var cities = ["Atlanta", "Baltimore", "Chicago", "Denver", "Los Angeles", "Seattle"];
+// document.write(cities);
 
 
+// function submitForm() {
+//     var firstName = document.getElementById('firstName').value
+//     var lastName = document.getElementById('lastName').value
+//     var emailAddress = document.getElementById('email').value
+//     var age = document.getElementById('age').value
+//     var Mnumber = document.getElementById('Mnumber').value
+//     var nic = document.getElementById('NIC').value
+//     console.log({firstName, lastName, emailAddress, age, Mnumber, nic});
+//     var diplayTable = document.getElementById('displayTable')
+//     var newRow = diplayTable.insertRow(1)
+//     var cell1 = newRow.insertCell(0)
+//     var cell2 = newRow.insertCell(1)
+//     var cell3 = newRow.insertCell(2)
+//     var cell4 = newRow.insertCell(3)
+//     var cell5 = newRow.insertCell(4)
+//     var cell6 = newRow.insertCell(5)
+//     cell1.innerHTML = firstName;
+//     cell2.innerHTML = lastName;
+//     cell3.innerHTML = emailAddress;
+//     cell4.innerHTML = age;
+//     cell5.innerHTML = Mnumber;
+//     cell6.innerHTML = nic;
+//     document.getElementById('firstName').value = ''
+//     document.getElementById('lastName').value = ''
+//     document.getElementById('email').value = ''
+//     document.getElementById('age').value = ''
+//     document.getElementById('Mnumber').value = ''
+//     document.getElementById('NIC').value = ''
 
-
-
-
-
+// }
 

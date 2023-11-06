@@ -1,0 +1,11 @@
+.head{
+    font-size: 50px;
+    font-weight: bold;
+    border: 3px blue solid;
+    padding: 5px;
+    border-width: 15px;
+    border-radius: 20px;
+    color: red;
+    background-color: aqua;
+    width: fit-content;
+}

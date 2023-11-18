@@ -668,3 +668,25 @@
 
 // }
 
+
+function calculateAge() {
+    // Get the input value (date of birth)
+    var dob = document.getElementById('dob').value;
+
+    // Create a Date object from the input value
+    var birthDate = new Date(dob);
+
+    // Get the current date
+    var currentDate = new Date();
+
+    // Calculate the age
+    var age = currentDate.getFullYear() - birthDate.getFullYear();
+
+    // Adjust age if the birthday hasn't occurred yet this year
+    if (currentDate.getMonth() < birthDate.getMonth() || (currentDate.getMonth() === birthDate.getMonth() && currentDate.getDate() < birthDate.getDate())) 
+    { age--;
+    }
+
+    // Display the result
+    document.getElementById('result').innerHTML = "Your age is: " + age + " years.";
+}

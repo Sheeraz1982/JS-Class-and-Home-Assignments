@@ -20,7 +20,7 @@ function submitForm() {
 
 function editItem(button) {        
     var newValue = prompt('Enter new value:', '');
-    console.log(newValue)
+    console.log('B',  newValue)
     if (newValue !== null && newValue !== '') {
         button.parentNode.innerHTML = newValue + ' <button onclick="editItem(this)">Edit</button> <button onclick="deleteItem(this)">Delete</button>';
     }
@@ -29,15 +29,3 @@ function editItem(button) {
 function deleteItem(button) {
     button.parentNode.remove();
 }
-// function deleteItem(button) {        
-   
-//     console.log(newValue)
-// }
-
-// function deleteTod0(){
-//     console.log('todo deleted');
-// }
-
-// function editTodo(){
-//     console.log('todo edited')
-// }

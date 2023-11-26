@@ -1,4 +1,4 @@
-function submitForm() {
+    function submitForm() {
     // Get the value from the input field
     var inputValue = document.getElementById('inputValue').value;
 

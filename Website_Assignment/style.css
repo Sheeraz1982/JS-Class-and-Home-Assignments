@@ -1,0 +1,321 @@
+.ticker-container {
+    overflow: hidden;
+    white-space: nowrap;
+    border: 1px solid blue;
+    height: 30px;
+    background-color: blue;
+}
+
+.ticker-content {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: white;
+    display: inline-block;
+    padding-left: 100%;
+    animation: ticker-scroll 20s linear infinite;
+}
+
+@keyframes ticker-scroll {
+    100% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.navbarColor {
+    background-color: blue;
+}
+
+.navbar-toggler-icon img {
+    position: relative;
+    left: 200%;
+}
+
+.search-container {
+    background-color: white;
+    border: 2px blue solid;
+    position: relative;
+    left: -40%;
+    padding: 10px;
+    border-radius: 5px;
+    width: 25%;
+    height: 55px;
+
+}
+
+.voice-button {
+    border: none;
+    background-color: white;
+    position: absolute;
+    left: 85%;
+    top: 25%;
+
+}
+
+.register {
+    position: absolute;
+    left: 240%;
+    border-radius: 5px;
+    background-color: white;
+    border-color: white;
+    width: 25%;
+    height: 70%;
+    font-weight: bolder;
+
+}
+
+.logIn {
+    position: absolute;
+    right: -135%;
+    border-radius: 5px;
+    background-color: white;
+    border-color: white;
+    width: 25%;
+    height: 70%;
+    font-weight: bolder;
+}
+
+.logIn:hover {
+    background-color: rgb(154, 185, 242);
+    transition: 0.3s;
+    color: white;
+}
+
+.register:hover {
+    background-color: rgb(154, 185, 242);
+    transition: 0.3s;
+    color: white;
+}
+.search-input {
+    border: none;
+}
+
+.list-items li {
+    display: inline-flex;
+    position: relative;
+    left: 150px;
+    top: -130px;
+    list-style-type: none;
+    padding: 30px;
+    word-spacing: 0px;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.menu-pictures li {
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    left: 130px;
+    top: -40px;
+    list-style-type: none;
+    padding: 50px;
+}
+
+#bt {
+    position: relative;
+    left: 145px;
+}
+
+#pb {
+    position: relative;
+    left: 165px;
+}
+
+#lap {
+    position: relative;
+    left: 140px;
+}
+
+#tab {
+    position: relative;
+    left: 100px;
+}
+
+#ts {
+    position: relative;
+    left: 90px;
+}
+
+.carousel-inner {
+    position: relative;
+    top: -150px;
+}
+
+.samsung img {
+    width: 90%;
+    position: relative;
+    left: 70px;
+    top: -120px;
+}
+
+.lwe {
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    padding: 10px;
+}
+
+#lwearbuds {
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+    top: -80px;
+    left: 150px;
+}
+
+#viewAll {
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+    top: -80px;
+    right: -1050px;
+}
+
+#viewAll a {
+    text-decoration: none;
+}
+
+.Earbuds_01 {
+    display: inline-flex;
+    list-style-type: none;
+    position: relative;
+    left: 50px;
+}
+
+.Earbuds_02 {
+    display: inline-flex;
+    list-style-type: none;
+    position: relative;
+    left: 50px;
+}
+
+.image{
+    width: 340px;
+    
+}
+.heading{
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    top: 70px;
+}
+.imageNew{
+    position: relative;
+    top: 100px;
+    left: 180px;
+}
+#img2{
+    position: relative;
+    top: -130px;
+    left: 10px;
+}
+#img3{
+    position: relative;
+    top: -128px;
+    left: 20px;
+}
+#img4{
+    position: relative;
+    top: 132px;
+    left: -605px;
+}
+#img5{
+    position: relative;
+    top: -237px;
+    left: 790px;
+}
+.ad img{
+    width: 100%;
+    padding: 5px;
+    position: relative;
+    top: -100px;
+}
+.heading2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: darkblue;
+    padding: 1px;
+    position: relative;
+    top: -50px;
+    left: 160px;
+}
+#btn1, #btn2, #btn3, #btn4{
+    border-radius: 4px;
+    background-color: rgb(202, 240, 107);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkblue;
+    position: relative;
+    left: 160px;
+    top: -40px;
+    width: 18%;
+    height: 50px;
+    margin-right: 20px;
+}
+#btn5, #btn6, #btn7, #btn8{
+    border-radius: 4px;
+    background-color:  rgb(202, 240, 107);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkblue;
+    position: relative;
+    left: 160px;
+    top: -30px;
+    width: 18%;
+    height: 50px;
+    margin-right: 20px;
+}
+#btn1:hover {
+    background-color: rgb(154, 185, 242);
+    transition: 0.3s;
+    transform: scale(1.1);
+    color: white;
+}
+#btn2:hover {
+    background-color: rgb(154, 185, 242);
+    transition: 0.3s;
+    transform: scale(1.1);
+    color: white;
+}
+#btn3:hover {
+    background-color: rgb(154, 185, 242);
+    transform: scale(1.1);
+    transition: 0.3s;
+    color: white;
+}
+#btn4:hover {
+    background-color: rgb(154, 185, 242);
+    transform: scale(1.1);
+    transition: 0.3s;
+    color: white;
+}
+#btn5:hover {
+    background-color: rgb(154, 185, 242);
+    transform: scale(1.1);
+    transition: 0.3s;
+    color: white;
+}
+#btn6:hover {
+    background-color: rgb(154, 185, 242);
+    transform: scale(1.1);
+    transition: 0.3s;
+    color: white;
+}
+#btn7:hover {
+    background-color: rgb(154, 185, 242);
+    transition: 0.3s;
+    transform: scale(1.1);
+    color: white;
+}
+#btn8:hover {
+    background-color: rgb(154, 185, 242);
+    transition: 0.3s;
+    transform: scale(1.1);
+    color: white;
+}

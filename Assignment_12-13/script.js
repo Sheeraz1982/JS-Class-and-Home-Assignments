@@ -345,8 +345,8 @@
 // // var greeting = `Hello, ${name}! , I am here for you ${name}!`;
 // // console.log(greeting);
 
-// var length = 2 * 0.3048; // 2 feet to meters
-// var width = 4 * 0.3048; // 4 feet to meters
+// var length = 1.250 * 0.3048; // 2 feet to meters
+// var width = 0.83 * 0.3048; // 4 feet to meters
 // var thickness = 2 * 0.0254; // 2 inches to meters
 
 // // Calculate area
@@ -365,10 +365,7 @@
 //     console.log(result);
 // }
 
-var date = new Date ()
-var getday = date.getDay()
-document.write(getday);
-
-
-
+// var date = new Date ()
+// var getday = date.getDay()
+// document.write(getday);
 

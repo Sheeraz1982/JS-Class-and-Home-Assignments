@@ -1,0 +1,91 @@
+/* body{
+  background: linear-gradient(to right, #ff9900, #6633cc);
+}
+h1{
+  text-transform: uppercase;
+  background-color: bisque;
+  font-size: 48px;
+  font-family: Cambria;
+  text-shadow: 2px 2px 4px rgba(0.5, 0.5, 0.5, 0.5);
+  color: red;
+  border-radius: 5px;
+  border-width: 10px;
+  border-style: groove;
+  width: 15%;
+  height: 50px;
+  float: inline-start; 
+}
+
+h2 {
+  text-transform: uppercase;
+  background-color: bisque;
+  font-size: 48px;
+  font-family: Cambria;
+  text-shadow: 2px 2px 4px rgba(0.5, 0.5, 0.5, 0.5);
+  color: red;
+  border-radius: 5px;
+  border-width: 10px;
+  border-style: groove;
+  width: 15%;
+  float: inline-start;
+  
+}
+
+#player1Dice, #player2Dice{
+  float:inline-start;
+}
+
+#player1{
+  display: inline-block;
+} */
+/* 
+#todo{
+  border: 6px rgb(215, 58, 58) solid;
+  margin: 20px;
+  width: 15%;
+  padding: 10px;
+  border-radius: 10px;  
+}
+#button{
+  padding: 5px;
+  width: 5%;
+  background-color: #ff9900;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#dTodo{
+  font-size: 12px;
+  margin: auto;
+  padding: 5px;
+  width: 5%;
+  background-color: cadetblue;
+  border-radius: 5px;
+  font-weight: bold;
+  left: 20px;
+  position: relative;
+  left: 4%;
+  cursor: pointer;
+}
+#eTodo{
+  font-size: 12px;
+  padding: 5px;
+  width: 5%;
+  background-color: cadetblue;
+  border-radius: 5px;
+  font-weight: bold;
+  left: 2%;
+  position: relative;
+  left: 5%;
+  cursor: pointer;
+}
+#ul li{
+  font-size: 20px;
+  list-style: none;
+  letter-spacing: 2px;
+  text-align:center;
+  position: relative;
+  left: -2%;
+} */
+
